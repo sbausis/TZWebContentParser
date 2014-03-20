@@ -25,6 +25,7 @@
 @property (nonatomic,readonly) TZWebContent* webContent;
 @property (nonatomic,readonly) NSDictionary* dataDict;
 
+-(id)init __attribute__((unavailable("Must use initWithURL: instead.")));
 - (id)initWithURL:(NSString*)url;
 - (id)initWithURL:(NSString *)url andName:(NSString*)name;
 - (id)initWithURL:(NSString *)url andName:(NSString*)name andObserver:(NSObject*)observer;

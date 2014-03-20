@@ -9,7 +9,7 @@
 #ifndef TZWebContentParser_TZDebug_h
 #define TZWebContentParser_TZDebug_h
 
-#define TZDEBUG 0
+#define TZDEBUG 1
 
 #if TZDEBUG
 #define TZLog(fmt, ...) NSLog(fmt, ##__VA_ARGS__)

@@ -8,42 +8,12 @@
 
 #import "TZWebContent.h"
 
-//#import "TZWebContentParser.h"
-
 #import "TZXmlFeedParser.h"
 #import "TZServerIndexParser.h"
 #import "TZDownloadPageParser.h"
 
 #import "TZTorrentSitesParser.h"
-/*
-#import "TZ_bitsnoop_PageParser.h"
-#import "TZ_torrentdownloads_PageParser.h"
-#import "TZ_monova_PageParser.h"
-#import "TZ_torrentcrazy_PageParser.h"
-#import "TZ_torrentreactor_PageParser.h"
-#import "TZ_torrenthound_PageParser.h"
-#import "TZ_kickass_PageParser.h"
-#import "TZ_torrentfunk_PageParser.h"
-#import "TZ_seedpeer_PageParser.h"
-#import "TZ_yourbittorrent_PageParser.h"
-#import "TZ_torrents_PageParser.h"
-#import "TZ_fulldls_PageParser.h"
-#import "TZ_limetorrents_PageParser.h"
-#import "TZ_archive_PageParser.h"
-#import "TZ_thepiratebay_PageParser.h"
-#import "TZ_torrentzap_PageParser.h"
-#import "TZ_extratorrent_PageParser.h"
-#import "TZ_torlock_PageParser.h"
-#import "TZ_vertor_PageParser.h"
-#import "TZ_1337x_PageParser.h"
-#import "TZ_torrentbit_PageParser.h"
-#import "TZ_rarbg_PageParser.h"
-#import "TZ_newtorrents_PageParser.h"
-#import "TZ_bt_chat_PageParser.h"
-#import "TZ_publichd_PageParser.h"
-#import "TZ_eztv_PageParser.h"
-#import "TZ_linuxtracker_PageParser.h"
-*/
+
 @interface TZWebContent()
 
 @property (nonatomic, strong) Class parserClass;
@@ -54,7 +24,6 @@
     NSArray *_knownPages;
     NSString* _urlString;
     id <TZWebContentDelegate> _delegate;
-    //Class _parserClass;
     TZWebContentParser *_parser;
 }
 

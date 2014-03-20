@@ -13,6 +13,8 @@ typedef NSDictionary TZLinkDownload;
 
 @interface TZDownloadPages : NSObject
 
+
+-(id)init __attribute__((unavailable("Must use initWithLink: / initWithUUID: instead.")));
 -(id)initWithLink:(NSString*)link;
 -(id)initWithUUID:(NSString*)uuid;
 

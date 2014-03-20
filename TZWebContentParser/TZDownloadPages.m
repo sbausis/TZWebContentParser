@@ -48,15 +48,8 @@
     _cache = cache;
 }
 
--(id)init {
-    self = [super init];
-    if (self) {
-        
-    }
-    return self;
-}
 -(id)initWithLink:(NSString*)link {
-    self = [self init];
+    self = [super init];
     if (self && link) {
         _link = link;
         self.dict = [TZWebContent parseSynchronous:link];
