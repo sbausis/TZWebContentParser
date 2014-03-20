@@ -39,6 +39,15 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "47584F8C1855118D005BF727"
+            BuildableName = "TZWebContentParserTest.app"
+            BlueprintName = "TZWebContentParserTest"
+            ReferencedContainer = "container:TZWebContentParserTest/TZWebContentParserTest.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -49,6 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "47584F8C1855118D005BF727"
+            BuildableName = "TZWebContentParserTest.app"
+            BlueprintName = "TZWebContentParserTest"
+            ReferencedContainer = "container:TZWebContentParserTest/TZWebContentParserTest.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

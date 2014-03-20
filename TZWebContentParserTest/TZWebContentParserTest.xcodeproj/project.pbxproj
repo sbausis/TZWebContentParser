@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		474CD4A818D664A0003A5476 /* TZWebContentParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474CD4A718D664A0003A5476 /* TZWebContentParser.framework */; };
+		474CD4A918D664CA003A5476 /* TZWebContentParser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 474CD4A718D664A0003A5476 /* TZWebContentParser.framework */; };
+		47584F911855118D005BF727 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584F901855118D005BF727 /* Cocoa.framework */; };
+		47584F9B1855118D005BF727 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47584F991855118D005BF727 /* InfoPlist.strings */; };
+		47584F9D1855118D005BF727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F9C1855118D005BF727 /* main.m */; };
+		47584FA11855118D005BF727 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 47584F9F1855118D005BF727 /* Credits.rtf */; };
+		47584FA41855118D005BF727 /* TZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584FA31855118D005BF727 /* TZAppDelegate.m */; };
+		47584FA71855118D005BF727 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47584FA51855118D005BF727 /* MainMenu.xib */; };
+		47584FAA1855118D005BF727 /* TZWebContentParserTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47584FA81855118D005BF727 /* TZWebContentParserTest.xcdatamodeld */; };
+		47584FAC1855118D005BF727 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47584FAB1855118D005BF727 /* Images.xcassets */; };
+		47584FB31855118D005BF727 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584FB21855118D005BF727 /* XCTest.framework */; };
+		47584FB41855118D005BF727 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584F901855118D005BF727 /* Cocoa.framework */; };
+		47584FBC1855118D005BF727 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47584FBA1855118D005BF727 /* InfoPlist.strings */; };
+		47584FBE1855118D005BF727 /* TZWebContentParserTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584FBD1855118D005BF727 /* TZWebContentParserTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47584FB51855118D005BF727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47584F851855118D005BF727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47584F8C1855118D005BF727;
+			remoteInfo = TZWebContentParserTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47584FD218551201005BF727 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				474CD4A918D664CA003A5476 /* TZWebContentParser.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		474CD4A718D664A0003A5476 /* TZWebContentParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TZWebContentParser.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/TZWebContentParser-cubefxvzggkqvecltylybhbiyxuq/Build/Products/Debug/TZWebContentParser.framework"; sourceTree = "<group>"; };
+		47584F8D1855118D005BF727 /* TZWebContentParserTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZWebContentParserTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47584F901855118D005BF727 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		47584F931855118D005BF727 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		47584F941855118D005BF727 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		47584F951855118D005BF727 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47584F981855118D005BF727 /* TZWebContentParserTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TZWebContentParserTest-Info.plist"; sourceTree = "<group>"; };
+		47584F9A1855118D005BF727 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47584F9C1855118D005BF727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47584F9E1855118D005BF727 /* TZWebContentParserTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TZWebContentParserTest-Prefix.pch"; sourceTree = "<group>"; };
+		47584FA01855118D005BF727 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		47584FA21855118D005BF727 /* TZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZAppDelegate.h; sourceTree = "<group>"; };
+		47584FA31855118D005BF727 /* TZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZAppDelegate.m; sourceTree = "<group>"; };
+		47584FA61855118D005BF727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47584FA91855118D005BF727 /* TZWebContentParserTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TZWebContentParserTest.xcdatamodel; sourceTree = "<group>"; };
+		47584FAB1855118D005BF727 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47584FB11855118D005BF727 /* TZWebContentParserTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZWebContentParserTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47584FB21855118D005BF727 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47584FB91855118D005BF727 /* TZWebContentParserTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TZWebContentParserTestTests-Info.plist"; sourceTree = "<group>"; };
+		47584FBB1855118D005BF727 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47584FBD1855118D005BF727 /* TZWebContentParserTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZWebContentParserTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47584F8A1855118D005BF727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474CD4A818D664A0003A5476 /* TZWebContentParser.framework in Frameworks */,
+				47584F911855118D005BF727 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47584FAE1855118D005BF727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47584FB41855118D005BF727 /* Cocoa.framework in Frameworks */,
+				47584FB31855118D005BF727 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47584F841855118D005BF727 = {
+			isa = PBXGroup;
+			children = (
+				47584F961855118D005BF727 /* TZWebContentParserTest */,
+				47584FB71855118D005BF727 /* TZWebContentParserTestTests */,
+				47584F8F1855118D005BF727 /* Frameworks */,
+				47584F8E1855118D005BF727 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47584F8E1855118D005BF727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47584F8D1855118D005BF727 /* TZWebContentParserTest.app */,
+				47584FB11855118D005BF727 /* TZWebContentParserTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47584F8F1855118D005BF727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				474CD4A718D664A0003A5476 /* TZWebContentParser.framework */,
+				47584F901855118D005BF727 /* Cocoa.framework */,
+				47584FB21855118D005BF727 /* XCTest.framework */,
+				47584F921855118D005BF727 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47584F921855118D005BF727 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47584F931855118D005BF727 /* AppKit.framework */,
+				47584F941855118D005BF727 /* CoreData.framework */,
+				47584F951855118D005BF727 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		47584F961855118D005BF727 /* TZWebContentParserTest */ = {
+			isa = PBXGroup;
+			children = (
+				47584FA21855118D005BF727 /* TZAppDelegate.h */,
+				47584FA31855118D005BF727 /* TZAppDelegate.m */,
+				47584FA51855118D005BF727 /* MainMenu.xib */,
+				47584FAB1855118D005BF727 /* Images.xcassets */,
+				47584FA81855118D005BF727 /* TZWebContentParserTest.xcdatamodeld */,
+				47584F971855118D005BF727 /* Supporting Files */,
+			);
+			path = TZWebContentParserTest;
+			sourceTree = "<group>";
+		};
+		47584F971855118D005BF727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47584F981855118D005BF727 /* TZWebContentParserTest-Info.plist */,
+				47584F991855118D005BF727 /* InfoPlist.strings */,
+				47584F9C1855118D005BF727 /* main.m */,
+				47584F9E1855118D005BF727 /* TZWebContentParserTest-Prefix.pch */,
+				47584F9F1855118D005BF727 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47584FB71855118D005BF727 /* TZWebContentParserTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				47584FBD1855118D005BF727 /* TZWebContentParserTestTests.m */,
+				47584FB81855118D005BF727 /* Supporting Files */,
+			);
+			path = TZWebContentParserTestTests;
+			sourceTree = "<group>";
+		};
+		47584FB81855118D005BF727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47584FB91855118D005BF727 /* TZWebContentParserTestTests-Info.plist */,
+				47584FBA1855118D005BF727 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47584F8C1855118D005BF727 /* TZWebContentParserTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47584FC11855118D005BF727 /* Build configuration list for PBXNativeTarget "TZWebContentParserTest" */;
+			buildPhases = (
+				47584F891855118D005BF727 /* Sources */,
+				47584FD218551201005BF727 /* CopyFiles */,
+				47584F8A1855118D005BF727 /* Frameworks */,
+				47584F8B1855118D005BF727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZWebContentParserTest;
+			productName = TZWebContentParserTest;
+			productReference = 47584F8D1855118D005BF727 /* TZWebContentParserTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47584FB01855118D005BF727 /* TZWebContentParserTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47584FC41855118D005BF727 /* Build configuration list for PBXNativeTarget "TZWebContentParserTestTests" */;
+			buildPhases = (
+				47584FAD1855118D005BF727 /* Sources */,
+				47584FAE1855118D005BF727 /* Frameworks */,
+				47584FAF1855118D005BF727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47584FB61855118D005BF727 /* PBXTargetDependency */,
+			);
+			name = TZWebContentParserTestTests;
+			productName = TZWebContentParserTestTests;
+			productReference = 47584FB11855118D005BF727 /* TZWebContentParserTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47584F851855118D005BF727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Simon Baur";
+				TargetAttributes = {
+					47584FB01855118D005BF727 = {
+						TestTargetID = 47584F8C1855118D005BF727;
+					};
+				};
+			};
+			buildConfigurationList = 47584F881855118D005BF727 /* Build configuration list for PBXProject "TZWebContentParserTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47584F841855118D005BF727;
+			productRefGroup = 47584F8E1855118D005BF727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47584F8C1855118D005BF727 /* TZWebContentParserTest */,
+				47584FB01855118D005BF727 /* TZWebContentParserTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47584F8B1855118D005BF727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47584F9B1855118D005BF727 /* InfoPlist.strings in Resources */,
+				47584FAC1855118D005BF727 /* Images.xcassets in Resources */,
+				47584FA11855118D005BF727 /* Credits.rtf in Resources */,
+				47584FA71855118D005BF727 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47584FAF1855118D005BF727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47584FBC1855118D005BF727 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47584F891855118D005BF727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47584FA41855118D005BF727 /* TZAppDelegate.m in Sources */,
+				47584F9D1855118D005BF727 /* main.m in Sources */,
+				47584FAA1855118D005BF727 /* TZWebContentParserTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47584FAD1855118D005BF727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47584FBE1855118D005BF727 /* TZWebContentParserTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47584FB61855118D005BF727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47584F8C1855118D005BF727 /* TZWebContentParserTest */;
+			targetProxy = 47584FB51855118D005BF727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47584F991855118D005BF727 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47584F9A1855118D005BF727 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47584F9F1855118D005BF727 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47584FA01855118D005BF727 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		47584FA51855118D005BF727 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47584FA61855118D005BF727 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		47584FBA1855118D005BF727 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47584FBB1855118D005BF727 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47584FBF1855118D005BF727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47584FC01855118D005BF727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47584FC21855118D005BF727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TZWebContentParser-gvfztihsjpavjbahzkwoygpuinty/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TZWebContentParser-cubefxvzggkqvecltylybhbiyxuq/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TZWebContentParserTest/TZWebContentParserTest-Prefix.pch";
+				INFOPLIST_FILE = "TZWebContentParserTest/TZWebContentParserTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47584FC31855118D005BF727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TZWebContentParser-gvfztihsjpavjbahzkwoygpuinty/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TZWebContentParser-cubefxvzggkqvecltylybhbiyxuq/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TZWebContentParserTest/TZWebContentParserTest-Prefix.pch";
+				INFOPLIST_FILE = "TZWebContentParserTest/TZWebContentParserTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47584FC51855118D005BF727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TZWebContentParserTest.app/Contents/MacOS/TZWebContentParserTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TZWebContentParserTest/TZWebContentParserTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TZWebContentParserTestTests/TZWebContentParserTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47584FC61855118D005BF727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TZWebContentParserTest.app/Contents/MacOS/TZWebContentParserTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TZWebContentParserTest/TZWebContentParserTest-Prefix.pch";
+				INFOPLIST_FILE = "TZWebContentParserTestTests/TZWebContentParserTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47584F881855118D005BF727 /* Build configuration list for PBXProject "TZWebContentParserTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47584FBF1855118D005BF727 /* Debug */,
+				47584FC01855118D005BF727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47584FC11855118D005BF727 /* Build configuration list for PBXNativeTarget "TZWebContentParserTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47584FC21855118D005BF727 /* Debug */,
+				47584FC31855118D005BF727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47584FC41855118D005BF727 /* Build configuration list for PBXNativeTarget "TZWebContentParserTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47584FC51855118D005BF727 /* Debug */,
+				47584FC61855118D005BF727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47584FA81855118D005BF727 /* TZWebContentParserTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47584FA91855118D005BF727 /* TZWebContentParserTest.xcdatamodel */,
+			);
+			currentVersion = 47584FA91855118D005BF727 /* TZWebContentParserTest.xcdatamodel */;
+			path = TZWebContentParserTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47584F851855118D005BF727 /* Project object */;
+}

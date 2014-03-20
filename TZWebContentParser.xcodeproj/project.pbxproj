@@ -7,14 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4706457E1859447500EF8629 /* TZTorrentSitesParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F8318550C4F005BF727 /* TZTorrentSitesParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4706457F1859447C00EF8629 /* TZDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4706457D185943E700EF8629 /* TZDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47203AA41884411E002C6E22 /* TZTorrentQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 47203AA01884411E002C6E22 /* TZTorrentQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47203AA51884411E002C6E22 /* TZTorrentQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 47203AA11884411E002C6E22 /* TZTorrentQuery.m */; };
+		47203AA61884411E002C6E22 /* TZDownloadPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 47203AA21884411E002C6E22 /* TZDownloadPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47203AA71884411E002C6E22 /* TZDownloadPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 47203AA31884411E002C6E22 /* TZDownloadPages.m */; };
+		4720679A1884AA8800C75B0E /* TZServerIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 472067981884AA8800C75B0E /* TZServerIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4720679B1884AA8800C75B0E /* TZServerIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 472067991884AA8800C75B0E /* TZServerIndex.m */; };
+		4736D747188C8EDA00128ED7 /* TZ_h33t_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4736D745188C8EDA00128ED7 /* TZ_h33t_PageParser.h */; };
+		4736D748188C8EDA00128ED7 /* TZ_h33t_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4736D746188C8EDA00128ED7 /* TZ_h33t_PageParser.m */; };
 		47584EA418550258005BF727 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584EA318550258005BF727 /* Cocoa.framework */; };
 		47584EAE18550258005BF727 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47584EAC18550258005BF727 /* InfoPlist.strings */; };
-		47584EB218550258005BF727 /* TZWebContentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EB118550258005BF727 /* TZWebContentParser.m */; };
 		47584EB918550258005BF727 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584EB818550258005BF727 /* XCTest.framework */; };
 		47584EBA18550258005BF727 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584EA318550258005BF727 /* Cocoa.framework */; };
 		47584EBD18550258005BF727 /* TZWebContentParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584EA018550258005BF727 /* TZWebContentParser.framework */; };
 		47584EC318550258005BF727 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47584EC118550258005BF727 /* InfoPlist.strings */; };
 		47584EC518550258005BF727 /* TZWebContentParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EC418550258005BF727 /* TZWebContentParserTests.m */; };
+		47584ECF1855026C005BF727 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584ECE1855026C005BF727 /* libxml2.dylib */; };
+		47584EE6185503C9005BF727 /* NSHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EE1185503C9005BF727 /* NSHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584EE7185503C9005BF727 /* NSHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EE2185503C9005BF727 /* NSHTMLParser.m */; };
+		47584EE8185503C9005BF727 /* DTWeakSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EE3185503C9005BF727 /* DTWeakSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584EE9185503C9005BF727 /* DTHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EE4185503C9005BF727 /* DTHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584EEA185503C9005BF727 /* DTHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EE5185503C9005BF727 /* DTHTMLParser.m */; };
+		47584EEF185503D8005BF727 /* TZHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EEB185503D8005BF727 /* TZHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584EF0185503D8005BF727 /* TZHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EEC185503D8005BF727 /* TZHTMLParser.m */; };
+		47584EF1185503D8005BF727 /* TZXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EED185503D8005BF727 /* TZXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584EF2185503D8005BF727 /* TZXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EEE185503D8005BF727 /* TZXMLParser.m */; };
+		47584EF7185503E4005BF727 /* TZXmlRawParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EF3185503E4005BF727 /* TZXmlRawParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584EF8185503E4005BF727 /* TZXmlRawParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EF4185503E4005BF727 /* TZXmlRawParser.m */; };
+		47584EF9185503E4005BF727 /* TZXmlFeedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EF5185503E4005BF727 /* TZXmlFeedParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584EFA185503E4005BF727 /* TZXmlFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EF6185503E4005BF727 /* TZXmlFeedParser.m */; };
+		47584F01185503EC005BF727 /* TZHtmlRawParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EFB185503EC005BF727 /* TZHtmlRawParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584F02185503EC005BF727 /* TZHtmlRawParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EFC185503EC005BF727 /* TZHtmlRawParser.m */; };
+		47584F03185503EC005BF727 /* TZServerIndexParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EFD185503EC005BF727 /* TZServerIndexParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584F04185503EC005BF727 /* TZServerIndexParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EFE185503EC005BF727 /* TZServerIndexParser.m */; };
+		47584F05185503EC005BF727 /* TZDownloadPageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EFF185503EC005BF727 /* TZDownloadPageParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584F06185503EC005BF727 /* TZDownloadPageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F00185503EC005BF727 /* TZDownloadPageParser.m */; };
+		47584F3D18550401005BF727 /* TZ_bitsnoop_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F0718550401005BF727 /* TZ_bitsnoop_PageParser.h */; };
+		47584F3E18550401005BF727 /* TZ_bitsnoop_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F0818550401005BF727 /* TZ_bitsnoop_PageParser.m */; };
+		47584F3F18550401005BF727 /* TZ_torrentdownloads_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F0918550401005BF727 /* TZ_torrentdownloads_PageParser.h */; };
+		47584F4018550401005BF727 /* TZ_torrentdownloads_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F0A18550401005BF727 /* TZ_torrentdownloads_PageParser.m */; };
+		47584F4118550401005BF727 /* TZ_monova_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F0B18550401005BF727 /* TZ_monova_PageParser.h */; };
+		47584F4218550401005BF727 /* TZ_monova_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F0C18550401005BF727 /* TZ_monova_PageParser.m */; };
+		47584F4318550401005BF727 /* TZ_torrentcrazy_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F0D18550401005BF727 /* TZ_torrentcrazy_PageParser.h */; };
+		47584F4418550401005BF727 /* TZ_torrentcrazy_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F0E18550401005BF727 /* TZ_torrentcrazy_PageParser.m */; };
+		47584F4518550401005BF727 /* TZ_torrentreactor_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F0F18550401005BF727 /* TZ_torrentreactor_PageParser.h */; };
+		47584F4618550401005BF727 /* TZ_torrentreactor_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1018550401005BF727 /* TZ_torrentreactor_PageParser.m */; };
+		47584F4718550401005BF727 /* TZ_torrenthound_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1118550401005BF727 /* TZ_torrenthound_PageParser.h */; };
+		47584F4818550401005BF727 /* TZ_torrenthound_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1218550401005BF727 /* TZ_torrenthound_PageParser.m */; };
+		47584F4918550401005BF727 /* TZ_kickass_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1318550401005BF727 /* TZ_kickass_PageParser.h */; };
+		47584F4A18550401005BF727 /* TZ_kickass_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1418550401005BF727 /* TZ_kickass_PageParser.m */; };
+		47584F4B18550401005BF727 /* TZ_torrentfunk_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1518550401005BF727 /* TZ_torrentfunk_PageParser.h */; };
+		47584F4C18550401005BF727 /* TZ_torrentfunk_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1618550401005BF727 /* TZ_torrentfunk_PageParser.m */; };
+		47584F4D18550401005BF727 /* TZ_seedpeer_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1718550401005BF727 /* TZ_seedpeer_PageParser.h */; };
+		47584F4E18550401005BF727 /* TZ_seedpeer_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1818550401005BF727 /* TZ_seedpeer_PageParser.m */; };
+		47584F4F18550401005BF727 /* TZ_yourbittorrent_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1918550401005BF727 /* TZ_yourbittorrent_PageParser.h */; };
+		47584F5018550401005BF727 /* TZ_yourbittorrent_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1A18550401005BF727 /* TZ_yourbittorrent_PageParser.m */; };
+		47584F5118550401005BF727 /* TZ_torrents_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1B18550401005BF727 /* TZ_torrents_PageParser.h */; };
+		47584F5218550401005BF727 /* TZ_torrents_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1C18550401005BF727 /* TZ_torrents_PageParser.m */; };
+		47584F5318550401005BF727 /* TZ_fulldls_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1D18550401005BF727 /* TZ_fulldls_PageParser.h */; };
+		47584F5418550401005BF727 /* TZ_fulldls_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F1E18550401005BF727 /* TZ_fulldls_PageParser.m */; };
+		47584F5518550401005BF727 /* TZ_limetorrents_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F1F18550401005BF727 /* TZ_limetorrents_PageParser.h */; };
+		47584F5618550401005BF727 /* TZ_limetorrents_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2018550401005BF727 /* TZ_limetorrents_PageParser.m */; };
+		47584F5718550401005BF727 /* TZ_archive_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2118550401005BF727 /* TZ_archive_PageParser.h */; };
+		47584F5818550401005BF727 /* TZ_archive_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2218550401005BF727 /* TZ_archive_PageParser.m */; };
+		47584F5918550401005BF727 /* TZ_thepiratebay_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2318550401005BF727 /* TZ_thepiratebay_PageParser.h */; };
+		47584F5A18550401005BF727 /* TZ_thepiratebay_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2418550401005BF727 /* TZ_thepiratebay_PageParser.m */; };
+		47584F5B18550401005BF727 /* TZ_torrentzap_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2518550401005BF727 /* TZ_torrentzap_PageParser.h */; };
+		47584F5C18550401005BF727 /* TZ_torrentzap_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2618550401005BF727 /* TZ_torrentzap_PageParser.m */; };
+		47584F5D18550401005BF727 /* TZ_extratorrent_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2718550401005BF727 /* TZ_extratorrent_PageParser.h */; };
+		47584F5E18550401005BF727 /* TZ_extratorrent_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2818550401005BF727 /* TZ_extratorrent_PageParser.m */; };
+		47584F5F18550401005BF727 /* TZ_torlock_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2918550401005BF727 /* TZ_torlock_PageParser.h */; };
+		47584F6018550401005BF727 /* TZ_torlock_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2A18550401005BF727 /* TZ_torlock_PageParser.m */; };
+		47584F6118550401005BF727 /* TZ_vertor_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2B18550401005BF727 /* TZ_vertor_PageParser.h */; };
+		47584F6218550401005BF727 /* TZ_vertor_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2C18550401005BF727 /* TZ_vertor_PageParser.m */; };
+		47584F6318550401005BF727 /* TZ_1337x_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2D18550401005BF727 /* TZ_1337x_PageParser.h */; };
+		47584F6418550401005BF727 /* TZ_1337x_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F2E18550401005BF727 /* TZ_1337x_PageParser.m */; };
+		47584F6518550401005BF727 /* TZ_torrentbit_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F2F18550401005BF727 /* TZ_torrentbit_PageParser.h */; };
+		47584F6618550401005BF727 /* TZ_torrentbit_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F3018550401005BF727 /* TZ_torrentbit_PageParser.m */; };
+		47584F6718550401005BF727 /* TZ_rarbg_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F3118550401005BF727 /* TZ_rarbg_PageParser.h */; };
+		47584F6818550401005BF727 /* TZ_rarbg_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F3218550401005BF727 /* TZ_rarbg_PageParser.m */; };
+		47584F6918550401005BF727 /* TZ_newtorrents_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F3318550401005BF727 /* TZ_newtorrents_PageParser.h */; };
+		47584F6A18550401005BF727 /* TZ_newtorrents_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F3418550401005BF727 /* TZ_newtorrents_PageParser.m */; };
+		47584F6B18550401005BF727 /* TZ_bt_chat_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F3518550401005BF727 /* TZ_bt_chat_PageParser.h */; };
+		47584F6C18550401005BF727 /* TZ_bt_chat_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F3618550401005BF727 /* TZ_bt_chat_PageParser.m */; };
+		47584F6D18550401005BF727 /* TZ_publichd_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F3718550401005BF727 /* TZ_publichd_PageParser.h */; };
+		47584F6E18550401005BF727 /* TZ_publichd_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F3818550401005BF727 /* TZ_publichd_PageParser.m */; };
+		47584F6F18550401005BF727 /* TZ_eztv_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F3918550401005BF727 /* TZ_eztv_PageParser.h */; };
+		47584F7018550401005BF727 /* TZ_eztv_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F3A18550401005BF727 /* TZ_eztv_PageParser.m */; };
+		47584F7118550401005BF727 /* TZ_linuxtracker_PageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F3B18550401005BF727 /* TZ_linuxtracker_PageParser.h */; };
+		47584F7218550401005BF727 /* TZ_linuxtracker_PageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F3C18550401005BF727 /* TZ_linuxtracker_PageParser.m */; };
+		47584F7918550439005BF727 /* TZWebContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F7318550439005BF727 /* TZWebContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584F7A18550439005BF727 /* TZWebContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F7418550439005BF727 /* TZWebContent.m */; };
+		47584F7B18550439005BF727 /* TZWebContentParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F7518550439005BF727 /* TZWebContentParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584F7C18550439005BF727 /* TZWebContentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F7618550439005BF727 /* TZWebContentParser.m */; };
+		47584F7D18550439005BF727 /* TZPageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F7718550439005BF727 /* TZPageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584F7E18550439005BF727 /* TZPageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F7818550439005BF727 /* TZPageLoader.m */; };
+		47584F811855045B005BF727 /* TZTorrentzOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F7F1855045B005BF727 /* TZTorrentzOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47584F821855045B005BF727 /* TZTorrentzOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F801855045B005BF727 /* TZTorrentzOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,9 +116,32 @@
 			remoteGlobalIDString = 47584E9F18550258005BF727;
 			remoteInfo = TZWebContentParser;
 		};
+		47584FCC1855118E005BF727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 47584F8D1855118D005BF727;
+			remoteInfo = TZWebContentParserTest;
+		};
+		47584FCE1855118E005BF727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 47584FB11855118D005BF727;
+			remoteInfo = TZWebContentParserTestTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4706457D185943E700EF8629 /* TZDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TZDebug.h; path = TZWebContentParser/TZDebug.h; sourceTree = "<group>"; };
+		47203AA01884411E002C6E22 /* TZTorrentQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTorrentQuery.h; sourceTree = "<group>"; };
+		47203AA11884411E002C6E22 /* TZTorrentQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTorrentQuery.m; sourceTree = "<group>"; };
+		47203AA21884411E002C6E22 /* TZDownloadPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZDownloadPages.h; sourceTree = "<group>"; };
+		47203AA31884411E002C6E22 /* TZDownloadPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZDownloadPages.m; sourceTree = "<group>"; };
+		472067981884AA8800C75B0E /* TZServerIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZServerIndex.h; sourceTree = "<group>"; };
+		472067991884AA8800C75B0E /* TZServerIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZServerIndex.m; sourceTree = "<group>"; };
+		4736D745188C8EDA00128ED7 /* TZ_h33t_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_h33t_PageParser.h; sourceTree = "<group>"; };
+		4736D746188C8EDA00128ED7 /* TZ_h33t_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_h33t_PageParser.m; sourceTree = "<group>"; };
 		47584EA018550258005BF727 /* TZWebContentParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TZWebContentParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47584EA318550258005BF727 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		47584EA618550258005BF727 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,13 +150,95 @@
 		47584EAB18550258005BF727 /* TZWebContentParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TZWebContentParser-Info.plist"; sourceTree = "<group>"; };
 		47584EAD18550258005BF727 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47584EAF18550258005BF727 /* TZWebContentParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TZWebContentParser-Prefix.pch"; sourceTree = "<group>"; };
-		47584EB018550258005BF727 /* TZWebContentParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZWebContentParser.h; sourceTree = "<group>"; };
-		47584EB118550258005BF727 /* TZWebContentParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZWebContentParser.m; sourceTree = "<group>"; };
 		47584EB718550258005BF727 /* TZWebContentParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZWebContentParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47584EB818550258005BF727 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		47584EC018550258005BF727 /* TZWebContentParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TZWebContentParserTests-Info.plist"; sourceTree = "<group>"; };
 		47584EC218550258005BF727 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47584EC418550258005BF727 /* TZWebContentParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZWebContentParserTests.m; sourceTree = "<group>"; };
+		47584ECE1855026C005BF727 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		47584EE1185503C9005BF727 /* NSHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSHTMLParser.h; sourceTree = "<group>"; };
+		47584EE2185503C9005BF727 /* NSHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSHTMLParser.m; sourceTree = "<group>"; };
+		47584EE3185503C9005BF727 /* DTWeakSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWeakSupport.h; sourceTree = "<group>"; };
+		47584EE4185503C9005BF727 /* DTHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHTMLParser.h; sourceTree = "<group>"; };
+		47584EE5185503C9005BF727 /* DTHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHTMLParser.m; sourceTree = "<group>"; };
+		47584EEB185503D8005BF727 /* TZHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZHTMLParser.h; sourceTree = "<group>"; };
+		47584EEC185503D8005BF727 /* TZHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZHTMLParser.m; sourceTree = "<group>"; };
+		47584EED185503D8005BF727 /* TZXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXMLParser.h; sourceTree = "<group>"; };
+		47584EEE185503D8005BF727 /* TZXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZXMLParser.m; sourceTree = "<group>"; };
+		47584EF3185503E4005BF727 /* TZXmlRawParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXmlRawParser.h; sourceTree = "<group>"; };
+		47584EF4185503E4005BF727 /* TZXmlRawParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZXmlRawParser.m; sourceTree = "<group>"; };
+		47584EF5185503E4005BF727 /* TZXmlFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXmlFeedParser.h; sourceTree = "<group>"; };
+		47584EF6185503E4005BF727 /* TZXmlFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZXmlFeedParser.m; sourceTree = "<group>"; };
+		47584EFB185503EC005BF727 /* TZHtmlRawParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZHtmlRawParser.h; sourceTree = "<group>"; };
+		47584EFC185503EC005BF727 /* TZHtmlRawParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZHtmlRawParser.m; sourceTree = "<group>"; };
+		47584EFD185503EC005BF727 /* TZServerIndexParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZServerIndexParser.h; sourceTree = "<group>"; };
+		47584EFE185503EC005BF727 /* TZServerIndexParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZServerIndexParser.m; sourceTree = "<group>"; };
+		47584EFF185503EC005BF727 /* TZDownloadPageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZDownloadPageParser.h; sourceTree = "<group>"; };
+		47584F00185503EC005BF727 /* TZDownloadPageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZDownloadPageParser.m; sourceTree = "<group>"; };
+		47584F0718550401005BF727 /* TZ_bitsnoop_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_bitsnoop_PageParser.h; sourceTree = "<group>"; };
+		47584F0818550401005BF727 /* TZ_bitsnoop_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_bitsnoop_PageParser.m; sourceTree = "<group>"; };
+		47584F0918550401005BF727 /* TZ_torrentdownloads_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrentdownloads_PageParser.h; sourceTree = "<group>"; };
+		47584F0A18550401005BF727 /* TZ_torrentdownloads_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrentdownloads_PageParser.m; sourceTree = "<group>"; };
+		47584F0B18550401005BF727 /* TZ_monova_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_monova_PageParser.h; sourceTree = "<group>"; };
+		47584F0C18550401005BF727 /* TZ_monova_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_monova_PageParser.m; sourceTree = "<group>"; };
+		47584F0D18550401005BF727 /* TZ_torrentcrazy_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrentcrazy_PageParser.h; sourceTree = "<group>"; };
+		47584F0E18550401005BF727 /* TZ_torrentcrazy_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrentcrazy_PageParser.m; sourceTree = "<group>"; };
+		47584F0F18550401005BF727 /* TZ_torrentreactor_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrentreactor_PageParser.h; sourceTree = "<group>"; };
+		47584F1018550401005BF727 /* TZ_torrentreactor_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrentreactor_PageParser.m; sourceTree = "<group>"; };
+		47584F1118550401005BF727 /* TZ_torrenthound_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrenthound_PageParser.h; sourceTree = "<group>"; };
+		47584F1218550401005BF727 /* TZ_torrenthound_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrenthound_PageParser.m; sourceTree = "<group>"; };
+		47584F1318550401005BF727 /* TZ_kickass_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_kickass_PageParser.h; sourceTree = "<group>"; };
+		47584F1418550401005BF727 /* TZ_kickass_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_kickass_PageParser.m; sourceTree = "<group>"; };
+		47584F1518550401005BF727 /* TZ_torrentfunk_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrentfunk_PageParser.h; sourceTree = "<group>"; };
+		47584F1618550401005BF727 /* TZ_torrentfunk_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrentfunk_PageParser.m; sourceTree = "<group>"; };
+		47584F1718550401005BF727 /* TZ_seedpeer_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_seedpeer_PageParser.h; sourceTree = "<group>"; };
+		47584F1818550401005BF727 /* TZ_seedpeer_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_seedpeer_PageParser.m; sourceTree = "<group>"; };
+		47584F1918550401005BF727 /* TZ_yourbittorrent_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_yourbittorrent_PageParser.h; sourceTree = "<group>"; };
+		47584F1A18550401005BF727 /* TZ_yourbittorrent_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_yourbittorrent_PageParser.m; sourceTree = "<group>"; };
+		47584F1B18550401005BF727 /* TZ_torrents_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrents_PageParser.h; sourceTree = "<group>"; };
+		47584F1C18550401005BF727 /* TZ_torrents_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrents_PageParser.m; sourceTree = "<group>"; };
+		47584F1D18550401005BF727 /* TZ_fulldls_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_fulldls_PageParser.h; sourceTree = "<group>"; };
+		47584F1E18550401005BF727 /* TZ_fulldls_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_fulldls_PageParser.m; sourceTree = "<group>"; };
+		47584F1F18550401005BF727 /* TZ_limetorrents_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_limetorrents_PageParser.h; sourceTree = "<group>"; };
+		47584F2018550401005BF727 /* TZ_limetorrents_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_limetorrents_PageParser.m; sourceTree = "<group>"; };
+		47584F2118550401005BF727 /* TZ_archive_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_archive_PageParser.h; sourceTree = "<group>"; };
+		47584F2218550401005BF727 /* TZ_archive_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_archive_PageParser.m; sourceTree = "<group>"; };
+		47584F2318550401005BF727 /* TZ_thepiratebay_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_thepiratebay_PageParser.h; sourceTree = "<group>"; };
+		47584F2418550401005BF727 /* TZ_thepiratebay_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_thepiratebay_PageParser.m; sourceTree = "<group>"; };
+		47584F2518550401005BF727 /* TZ_torrentzap_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrentzap_PageParser.h; sourceTree = "<group>"; };
+		47584F2618550401005BF727 /* TZ_torrentzap_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrentzap_PageParser.m; sourceTree = "<group>"; };
+		47584F2718550401005BF727 /* TZ_extratorrent_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_extratorrent_PageParser.h; sourceTree = "<group>"; };
+		47584F2818550401005BF727 /* TZ_extratorrent_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_extratorrent_PageParser.m; sourceTree = "<group>"; };
+		47584F2918550401005BF727 /* TZ_torlock_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torlock_PageParser.h; sourceTree = "<group>"; };
+		47584F2A18550401005BF727 /* TZ_torlock_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torlock_PageParser.m; sourceTree = "<group>"; };
+		47584F2B18550401005BF727 /* TZ_vertor_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_vertor_PageParser.h; sourceTree = "<group>"; };
+		47584F2C18550401005BF727 /* TZ_vertor_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_vertor_PageParser.m; sourceTree = "<group>"; };
+		47584F2D18550401005BF727 /* TZ_1337x_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_1337x_PageParser.h; sourceTree = "<group>"; };
+		47584F2E18550401005BF727 /* TZ_1337x_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_1337x_PageParser.m; sourceTree = "<group>"; };
+		47584F2F18550401005BF727 /* TZ_torrentbit_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_torrentbit_PageParser.h; sourceTree = "<group>"; };
+		47584F3018550401005BF727 /* TZ_torrentbit_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_torrentbit_PageParser.m; sourceTree = "<group>"; };
+		47584F3118550401005BF727 /* TZ_rarbg_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_rarbg_PageParser.h; sourceTree = "<group>"; };
+		47584F3218550401005BF727 /* TZ_rarbg_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_rarbg_PageParser.m; sourceTree = "<group>"; };
+		47584F3318550401005BF727 /* TZ_newtorrents_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_newtorrents_PageParser.h; sourceTree = "<group>"; };
+		47584F3418550401005BF727 /* TZ_newtorrents_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_newtorrents_PageParser.m; sourceTree = "<group>"; };
+		47584F3518550401005BF727 /* TZ_bt_chat_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_bt_chat_PageParser.h; sourceTree = "<group>"; };
+		47584F3618550401005BF727 /* TZ_bt_chat_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_bt_chat_PageParser.m; sourceTree = "<group>"; };
+		47584F3718550401005BF727 /* TZ_publichd_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_publichd_PageParser.h; sourceTree = "<group>"; };
+		47584F3818550401005BF727 /* TZ_publichd_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_publichd_PageParser.m; sourceTree = "<group>"; };
+		47584F3918550401005BF727 /* TZ_eztv_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_eztv_PageParser.h; sourceTree = "<group>"; };
+		47584F3A18550401005BF727 /* TZ_eztv_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_eztv_PageParser.m; sourceTree = "<group>"; };
+		47584F3B18550401005BF727 /* TZ_linuxtracker_PageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZ_linuxtracker_PageParser.h; sourceTree = "<group>"; };
+		47584F3C18550401005BF727 /* TZ_linuxtracker_PageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZ_linuxtracker_PageParser.m; sourceTree = "<group>"; };
+		47584F7318550439005BF727 /* TZWebContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZWebContent.h; sourceTree = "<group>"; };
+		47584F7418550439005BF727 /* TZWebContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZWebContent.m; sourceTree = "<group>"; };
+		47584F7518550439005BF727 /* TZWebContentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZWebContentParser.h; sourceTree = "<group>"; };
+		47584F7618550439005BF727 /* TZWebContentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZWebContentParser.m; sourceTree = "<group>"; };
+		47584F7718550439005BF727 /* TZPageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPageLoader.h; sourceTree = "<group>"; };
+		47584F7818550439005BF727 /* TZPageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPageLoader.m; sourceTree = "<group>"; };
+		47584F7F1855045B005BF727 /* TZTorrentzOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTorrentzOperation.h; sourceTree = "<group>"; };
+		47584F801855045B005BF727 /* TZTorrentzOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTorrentzOperation.m; sourceTree = "<group>"; };
+		47584F8318550C4F005BF727 /* TZTorrentSitesParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZTorrentSitesParser.h; sourceTree = "<group>"; };
+		47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TZWebContentParserTest.xcodeproj; path = TZWebContentParserTest/TZWebContentParserTest.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47584EA418550258005BF727 /* Cocoa.framework in Frameworks */,
+				47584ECF1855026C005BF727 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +268,11 @@
 			isa = PBXGroup;
 			children = (
 				47584EA918550258005BF727 /* TZWebContentParser */,
+				4706457D185943E700EF8629 /* TZDebug.h */,
 				47584EBE18550258005BF727 /* TZWebContentParserTests */,
 				47584EA218550258005BF727 /* Frameworks */,
 				47584EA118550258005BF727 /* Products */,
+				47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +288,7 @@
 		47584EA218550258005BF727 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47584ECE1855026C005BF727 /* libxml2.dylib */,
 				47584EA318550258005BF727 /* Cocoa.framework */,
 				47584EB818550258005BF727 /* XCTest.framework */,
 				47584EA518550258005BF727 /* Other Frameworks */,
@@ -109,8 +309,27 @@
 		47584EA918550258005BF727 /* TZWebContentParser */ = {
 			isa = PBXGroup;
 			children = (
-				47584EB018550258005BF727 /* TZWebContentParser.h */,
-				47584EB118550258005BF727 /* TZWebContentParser.m */,
+				47584F7F1855045B005BF727 /* TZTorrentzOperation.h */,
+				47584F801855045B005BF727 /* TZTorrentzOperation.m */,
+				47203AA01884411E002C6E22 /* TZTorrentQuery.h */,
+				47203AA11884411E002C6E22 /* TZTorrentQuery.m */,
+				47203AA21884411E002C6E22 /* TZDownloadPages.h */,
+				47203AA31884411E002C6E22 /* TZDownloadPages.m */,
+				472067981884AA8800C75B0E /* TZServerIndex.h */,
+				472067991884AA8800C75B0E /* TZServerIndex.m */,
+				47584F7318550439005BF727 /* TZWebContent.h */,
+				47584F7418550439005BF727 /* TZWebContent.m */,
+				47584F7518550439005BF727 /* TZWebContentParser.h */,
+				47584F7618550439005BF727 /* TZWebContentParser.m */,
+				47584F7718550439005BF727 /* TZPageLoader.h */,
+				47584F7818550439005BF727 /* TZPageLoader.m */,
+				47584EEB185503D8005BF727 /* TZHTMLParser.h */,
+				47584EEC185503D8005BF727 /* TZHTMLParser.m */,
+				47584EED185503D8005BF727 /* TZXMLParser.h */,
+				47584EEE185503D8005BF727 /* TZXMLParser.m */,
+				47584EDB18550370005BF727 /* NSHTMLParser */,
+				47584EDF1855039F005BF727 /* HTMLParser */,
+				47584EDD18550389005BF727 /* XMLParser */,
 				47584EAA18550258005BF727 /* Supporting Files */,
 			);
 			path = TZWebContentParser;
@@ -144,6 +363,116 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47584EDB18550370005BF727 /* NSHTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				47584EE1185503C9005BF727 /* NSHTMLParser.h */,
+				47584EE2185503C9005BF727 /* NSHTMLParser.m */,
+				47584EE3185503C9005BF727 /* DTWeakSupport.h */,
+				47584EE4185503C9005BF727 /* DTHTMLParser.h */,
+				47584EE5185503C9005BF727 /* DTHTMLParser.m */,
+			);
+			name = NSHTMLParser;
+			sourceTree = "<group>";
+		};
+		47584EDD18550389005BF727 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				47584EF3185503E4005BF727 /* TZXmlRawParser.h */,
+				47584EF4185503E4005BF727 /* TZXmlRawParser.m */,
+				47584EF5185503E4005BF727 /* TZXmlFeedParser.h */,
+				47584EF6185503E4005BF727 /* TZXmlFeedParser.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		47584EDF1855039F005BF727 /* HTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				47584EFB185503EC005BF727 /* TZHtmlRawParser.h */,
+				47584EFC185503EC005BF727 /* TZHtmlRawParser.m */,
+				47584EFD185503EC005BF727 /* TZServerIndexParser.h */,
+				47584EFE185503EC005BF727 /* TZServerIndexParser.m */,
+				47584EFF185503EC005BF727 /* TZDownloadPageParser.h */,
+				47584F00185503EC005BF727 /* TZDownloadPageParser.m */,
+				47584EE0185503A9005BF727 /* TorrentSites */,
+			);
+			name = HTMLParser;
+			sourceTree = "<group>";
+		};
+		47584EE0185503A9005BF727 /* TorrentSites */ = {
+			isa = PBXGroup;
+			children = (
+				47584F8318550C4F005BF727 /* TZTorrentSitesParser.h */,
+				47584F0718550401005BF727 /* TZ_bitsnoop_PageParser.h */,
+				47584F0818550401005BF727 /* TZ_bitsnoop_PageParser.m */,
+				47584F0918550401005BF727 /* TZ_torrentdownloads_PageParser.h */,
+				47584F0A18550401005BF727 /* TZ_torrentdownloads_PageParser.m */,
+				47584F0B18550401005BF727 /* TZ_monova_PageParser.h */,
+				47584F0C18550401005BF727 /* TZ_monova_PageParser.m */,
+				47584F0D18550401005BF727 /* TZ_torrentcrazy_PageParser.h */,
+				47584F0E18550401005BF727 /* TZ_torrentcrazy_PageParser.m */,
+				47584F0F18550401005BF727 /* TZ_torrentreactor_PageParser.h */,
+				47584F1018550401005BF727 /* TZ_torrentreactor_PageParser.m */,
+				47584F1118550401005BF727 /* TZ_torrenthound_PageParser.h */,
+				47584F1218550401005BF727 /* TZ_torrenthound_PageParser.m */,
+				47584F1318550401005BF727 /* TZ_kickass_PageParser.h */,
+				47584F1418550401005BF727 /* TZ_kickass_PageParser.m */,
+				47584F1518550401005BF727 /* TZ_torrentfunk_PageParser.h */,
+				47584F1618550401005BF727 /* TZ_torrentfunk_PageParser.m */,
+				47584F1718550401005BF727 /* TZ_seedpeer_PageParser.h */,
+				47584F1818550401005BF727 /* TZ_seedpeer_PageParser.m */,
+				47584F1918550401005BF727 /* TZ_yourbittorrent_PageParser.h */,
+				47584F1A18550401005BF727 /* TZ_yourbittorrent_PageParser.m */,
+				47584F1B18550401005BF727 /* TZ_torrents_PageParser.h */,
+				47584F1C18550401005BF727 /* TZ_torrents_PageParser.m */,
+				47584F1D18550401005BF727 /* TZ_fulldls_PageParser.h */,
+				47584F1E18550401005BF727 /* TZ_fulldls_PageParser.m */,
+				47584F1F18550401005BF727 /* TZ_limetorrents_PageParser.h */,
+				47584F2018550401005BF727 /* TZ_limetorrents_PageParser.m */,
+				47584F2118550401005BF727 /* TZ_archive_PageParser.h */,
+				47584F2218550401005BF727 /* TZ_archive_PageParser.m */,
+				47584F2318550401005BF727 /* TZ_thepiratebay_PageParser.h */,
+				47584F2418550401005BF727 /* TZ_thepiratebay_PageParser.m */,
+				47584F2518550401005BF727 /* TZ_torrentzap_PageParser.h */,
+				47584F2618550401005BF727 /* TZ_torrentzap_PageParser.m */,
+				47584F2718550401005BF727 /* TZ_extratorrent_PageParser.h */,
+				47584F2818550401005BF727 /* TZ_extratorrent_PageParser.m */,
+				47584F2918550401005BF727 /* TZ_torlock_PageParser.h */,
+				47584F2A18550401005BF727 /* TZ_torlock_PageParser.m */,
+				47584F2B18550401005BF727 /* TZ_vertor_PageParser.h */,
+				47584F2C18550401005BF727 /* TZ_vertor_PageParser.m */,
+				47584F2D18550401005BF727 /* TZ_1337x_PageParser.h */,
+				47584F2E18550401005BF727 /* TZ_1337x_PageParser.m */,
+				47584F2F18550401005BF727 /* TZ_torrentbit_PageParser.h */,
+				47584F3018550401005BF727 /* TZ_torrentbit_PageParser.m */,
+				47584F3118550401005BF727 /* TZ_rarbg_PageParser.h */,
+				47584F3218550401005BF727 /* TZ_rarbg_PageParser.m */,
+				47584F3318550401005BF727 /* TZ_newtorrents_PageParser.h */,
+				47584F3418550401005BF727 /* TZ_newtorrents_PageParser.m */,
+				47584F3518550401005BF727 /* TZ_bt_chat_PageParser.h */,
+				47584F3618550401005BF727 /* TZ_bt_chat_PageParser.m */,
+				47584F3718550401005BF727 /* TZ_publichd_PageParser.h */,
+				47584F3818550401005BF727 /* TZ_publichd_PageParser.m */,
+				47584F3918550401005BF727 /* TZ_eztv_PageParser.h */,
+				47584F3A18550401005BF727 /* TZ_eztv_PageParser.m */,
+				47584F3B18550401005BF727 /* TZ_linuxtracker_PageParser.h */,
+				47584F3C18550401005BF727 /* TZ_linuxtracker_PageParser.m */,
+				4736D745188C8EDA00128ED7 /* TZ_h33t_PageParser.h */,
+				4736D746188C8EDA00128ED7 /* TZ_h33t_PageParser.m */,
+			);
+			name = TorrentSites;
+			sourceTree = "<group>";
+		};
+		47584FC81855118D005BF727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47584FCD1855118E005BF727 /* TZWebContentParserTest.app */,
+				47584FCF1855118E005BF727 /* TZWebContentParserTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +480,53 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47584F6518550401005BF727 /* TZ_torrentbit_PageParser.h in Headers */,
+				47584F5D18550401005BF727 /* TZ_extratorrent_PageParser.h in Headers */,
+				47584EEF185503D8005BF727 /* TZHTMLParser.h in Headers */,
+				47584F01185503EC005BF727 /* TZHtmlRawParser.h in Headers */,
+				47584F4F18550401005BF727 /* TZ_yourbittorrent_PageParser.h in Headers */,
+				47584F7918550439005BF727 /* TZWebContent.h in Headers */,
+				47584EE9185503C9005BF727 /* DTHTMLParser.h in Headers */,
+				47584F4918550401005BF727 /* TZ_kickass_PageParser.h in Headers */,
+				47584F5518550401005BF727 /* TZ_limetorrents_PageParser.h in Headers */,
+				47584EF7185503E4005BF727 /* TZXmlRawParser.h in Headers */,
+				47584F5918550401005BF727 /* TZ_thepiratebay_PageParser.h in Headers */,
+				47584F6D18550401005BF727 /* TZ_publichd_PageParser.h in Headers */,
+				4706457F1859447C00EF8629 /* TZDebug.h in Headers */,
+				47584F811855045B005BF727 /* TZTorrentzOperation.h in Headers */,
+				47584F6318550401005BF727 /* TZ_1337x_PageParser.h in Headers */,
+				47584F4D18550401005BF727 /* TZ_seedpeer_PageParser.h in Headers */,
+				47584F4718550401005BF727 /* TZ_torrenthound_PageParser.h in Headers */,
+				47584EF1185503D8005BF727 /* TZXMLParser.h in Headers */,
+				47584F4B18550401005BF727 /* TZ_torrentfunk_PageParser.h in Headers */,
+				47584F6718550401005BF727 /* TZ_rarbg_PageParser.h in Headers */,
+				47584F03185503EC005BF727 /* TZServerIndexParser.h in Headers */,
+				47584F5318550401005BF727 /* TZ_fulldls_PageParser.h in Headers */,
+				47203AA61884411E002C6E22 /* TZDownloadPages.h in Headers */,
+				4706457E1859447500EF8629 /* TZTorrentSitesParser.h in Headers */,
+				47584F5718550401005BF727 /* TZ_archive_PageParser.h in Headers */,
+				47203AA41884411E002C6E22 /* TZTorrentQuery.h in Headers */,
+				47584F6918550401005BF727 /* TZ_newtorrents_PageParser.h in Headers */,
+				47584F6F18550401005BF727 /* TZ_eztv_PageParser.h in Headers */,
+				4736D747188C8EDA00128ED7 /* TZ_h33t_PageParser.h in Headers */,
+				47584F6118550401005BF727 /* TZ_vertor_PageParser.h in Headers */,
+				47584F3F18550401005BF727 /* TZ_torrentdownloads_PageParser.h in Headers */,
+				4720679A1884AA8800C75B0E /* TZServerIndex.h in Headers */,
+				47584F4318550401005BF727 /* TZ_torrentcrazy_PageParser.h in Headers */,
+				47584F7118550401005BF727 /* TZ_linuxtracker_PageParser.h in Headers */,
+				47584F5B18550401005BF727 /* TZ_torrentzap_PageParser.h in Headers */,
+				47584F05185503EC005BF727 /* TZDownloadPageParser.h in Headers */,
+				47584EF9185503E4005BF727 /* TZXmlFeedParser.h in Headers */,
+				47584F5118550401005BF727 /* TZ_torrents_PageParser.h in Headers */,
+				47584F3D18550401005BF727 /* TZ_bitsnoop_PageParser.h in Headers */,
+				47584F4118550401005BF727 /* TZ_monova_PageParser.h in Headers */,
+				47584EE8185503C9005BF727 /* DTWeakSupport.h in Headers */,
+				47584F5F18550401005BF727 /* TZ_torlock_PageParser.h in Headers */,
+				47584EE6185503C9005BF727 /* NSHTMLParser.h in Headers */,
+				47584F7B18550439005BF727 /* TZWebContentParser.h in Headers */,
+				47584F6B18550401005BF727 /* TZ_bt_chat_PageParser.h in Headers */,
+				47584F7D18550439005BF727 /* TZPageLoader.h in Headers */,
+				47584F4518550401005BF727 /* TZ_torrentreactor_PageParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +593,12 @@
 			mainGroup = 47584E9618550258005BF727;
 			productRefGroup = 47584EA118550258005BF727 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 47584FC81855118D005BF727 /* Products */;
+					ProjectRef = 47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				47584E9F18550258005BF727 /* TZWebContentParser */,
@@ -224,6 +606,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		47584FCD1855118E005BF727 /* TZWebContentParserTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TZWebContentParserTest.app;
+			remoteRef = 47584FCC1855118E005BF727 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47584FCF1855118E005BF727 /* TZWebContentParserTestTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TZWebContentParserTestTests.xctest;
+			remoteRef = 47584FCE1855118E005BF727 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		47584E9E18550258005BF727 /* Resources */ = {
@@ -249,7 +648,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47584EB218550258005BF727 /* TZWebContentParser.m in Sources */,
+				47584F4218550401005BF727 /* TZ_monova_PageParser.m in Sources */,
+				47584EE7185503C9005BF727 /* NSHTMLParser.m in Sources */,
+				47584F4A18550401005BF727 /* TZ_kickass_PageParser.m in Sources */,
+				47584F06185503EC005BF727 /* TZDownloadPageParser.m in Sources */,
+				47203AA71884411E002C6E22 /* TZDownloadPages.m in Sources */,
+				47584F7A18550439005BF727 /* TZWebContent.m in Sources */,
+				47584F6A18550401005BF727 /* TZ_newtorrents_PageParser.m in Sources */,
+				47584F5218550401005BF727 /* TZ_torrents_PageParser.m in Sources */,
+				47584EFA185503E4005BF727 /* TZXmlFeedParser.m in Sources */,
+				47584EF0185503D8005BF727 /* TZHTMLParser.m in Sources */,
+				47584F4018550401005BF727 /* TZ_torrentdownloads_PageParser.m in Sources */,
+				47584F5618550401005BF727 /* TZ_limetorrents_PageParser.m in Sources */,
+				47584F7018550401005BF727 /* TZ_eztv_PageParser.m in Sources */,
+				47584F5018550401005BF727 /* TZ_yourbittorrent_PageParser.m in Sources */,
+				47584F5818550401005BF727 /* TZ_archive_PageParser.m in Sources */,
+				47584F4E18550401005BF727 /* TZ_seedpeer_PageParser.m in Sources */,
+				47584EF2185503D8005BF727 /* TZXMLParser.m in Sources */,
+				47584F3E18550401005BF727 /* TZ_bitsnoop_PageParser.m in Sources */,
+				47584F7218550401005BF727 /* TZ_linuxtracker_PageParser.m in Sources */,
+				47584F5418550401005BF727 /* TZ_fulldls_PageParser.m in Sources */,
+				47584F6618550401005BF727 /* TZ_torrentbit_PageParser.m in Sources */,
+				47584F7E18550439005BF727 /* TZPageLoader.m in Sources */,
+				47584F4418550401005BF727 /* TZ_torrentcrazy_PageParser.m in Sources */,
+				47584F5C18550401005BF727 /* TZ_torrentzap_PageParser.m in Sources */,
+				47584F6218550401005BF727 /* TZ_vertor_PageParser.m in Sources */,
+				47584F6E18550401005BF727 /* TZ_publichd_PageParser.m in Sources */,
+				47584F4818550401005BF727 /* TZ_torrenthound_PageParser.m in Sources */,
+				47584F6818550401005BF727 /* TZ_rarbg_PageParser.m in Sources */,
+				4720679B1884AA8800C75B0E /* TZServerIndex.m in Sources */,
+				47203AA51884411E002C6E22 /* TZTorrentQuery.m in Sources */,
+				47584F5A18550401005BF727 /* TZ_thepiratebay_PageParser.m in Sources */,
+				47584F4618550401005BF727 /* TZ_torrentreactor_PageParser.m in Sources */,
+				47584EF8185503E4005BF727 /* TZXmlRawParser.m in Sources */,
+				47584F04185503EC005BF727 /* TZServerIndexParser.m in Sources */,
+				47584F6018550401005BF727 /* TZ_torlock_PageParser.m in Sources */,
+				4736D748188C8EDA00128ED7 /* TZ_h33t_PageParser.m in Sources */,
+				47584F6418550401005BF727 /* TZ_1337x_PageParser.m in Sources */,
+				47584F5E18550401005BF727 /* TZ_extratorrent_PageParser.m in Sources */,
+				47584F7C18550439005BF727 /* TZWebContentParser.m in Sources */,
+				47584EEA185503C9005BF727 /* DTHTMLParser.m in Sources */,
+				47584F02185503EC005BF727 /* TZHtmlRawParser.m in Sources */,
+				47584F6C18550401005BF727 /* TZ_bt_chat_PageParser.m in Sources */,
+				47584F4C18550401005BF727 /* TZ_torrentfunk_PageParser.m in Sources */,
+				47584F821855045B005BF727 /* TZTorrentzOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +810,14 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TZWebContentParser/TZWebContentParser-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				INFOPLIST_FILE = "TZWebContentParser/TZWebContentParser-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -383,7 +832,15 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TZWebContentParser/TZWebContentParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=0";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				INFOPLIST_FILE = "TZWebContentParser/TZWebContentParser-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -448,6 +905,7 @@
 				47584ECA18550258005BF727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47584ECB18550258005BF727 /* Build configuration list for PBXNativeTarget "TZWebContentParserTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +914,7 @@
 				47584ECD18550258005BF727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
