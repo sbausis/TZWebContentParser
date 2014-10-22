@@ -1,0 +1,4 @@
+[submodule "DTFoundation"]
+	path = DTFoundation
+	url = https://github.com/sbausis/DTFoundation.git
+	branch = master

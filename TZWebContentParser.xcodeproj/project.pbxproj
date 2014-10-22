@@ -24,12 +24,8 @@
 		47584EBD18550258005BF727 /* TZWebContentParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584EA018550258005BF727 /* TZWebContentParser.framework */; };
 		47584EC318550258005BF727 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47584EC118550258005BF727 /* InfoPlist.strings */; };
 		47584EC518550258005BF727 /* TZWebContentParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EC418550258005BF727 /* TZWebContentParserTests.m */; };
-		47584ECF1855026C005BF727 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47584ECE1855026C005BF727 /* libxml2.dylib */; };
 		47584EE6185503C9005BF727 /* NSHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EE1185503C9005BF727 /* NSHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47584EE7185503C9005BF727 /* NSHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EE2185503C9005BF727 /* NSHTMLParser.m */; };
-		47584EE8185503C9005BF727 /* DTWeakSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EE3185503C9005BF727 /* DTWeakSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47584EE9185503C9005BF727 /* DTHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EE4185503C9005BF727 /* DTHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47584EEA185503C9005BF727 /* DTHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EE5185503C9005BF727 /* DTHTMLParser.m */; };
 		47584EEF185503D8005BF727 /* TZHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EEB185503D8005BF727 /* TZHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47584EF0185503D8005BF727 /* TZHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584EEC185503D8005BF727 /* TZHTMLParser.m */; };
 		47584EF1185503D8005BF727 /* TZXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584EED185503D8005BF727 /* TZXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -106,6 +102,10 @@
 		47584F7E18550439005BF727 /* TZPageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F7818550439005BF727 /* TZPageLoader.m */; };
 		47584F811855045B005BF727 /* TZTorrentzOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47584F7F1855045B005BF727 /* TZTorrentzOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47584F821855045B005BF727 /* TZTorrentzOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47584F801855045B005BF727 /* TZTorrentzOperation.m */; };
+		47E6981819F7465B0009E243 /* libDTHTMLParser_Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E697F219F745B40009E243 /* libDTHTMLParser_Mac.a */; };
+		47E6981C19F74AFF0009E243 /* DTHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6981B19F74AFF0009E243 /* DTHTMLParser.h */; };
+		47E6981E19F74B130009E243 /* DTWeakSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6981D19F74B130009E243 /* DTWeakSupport.h */; };
+		47E6982019F74C4D0009E243 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E6981F19F74C4D0009E243 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,21 +116,195 @@
 			remoteGlobalIDString = 47584E9F18550258005BF727;
 			remoteInfo = TZWebContentParser;
 		};
-		47584FCC1855118E005BF727 /* PBXContainerItemProxy */ = {
+		47E697E319F745B40009E243 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 47584F8D1855118D005BF727;
-			remoteInfo = TZWebContentParserTest;
+			remoteGlobalIDString = A7BAD10E1483F934000E2B6A;
+			remoteInfo = "Static Framework";
 		};
-		47584FCE1855118E005BF727 /* PBXContainerItemProxy */ = {
+		47E697E519F745B40009E243 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 47584FB11855118D005BF727;
-			remoteInfo = TZWebContentParserTestTests;
+			remoteGlobalIDString = A70B4CE71486637E00873A4A;
+			remoteInfo = "Static Library";
+		};
+		47E697E719F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A710A5001607556000437D36;
+			remoteInfo = "Static Library (Mac)";
+		};
+		47E697E919F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7AC21AF196417830009E1B9;
+			remoteInfo = "DTAnimatedGIF (iOS)";
+		};
+		47E697EB19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A79D999C1792D1F50082BC06;
+			remoteInfo = "DTAWS (iOS)";
+		};
+		47E697ED19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA9CB80C17ABDEF200A596C5;
+			remoteInfo = "DTASN1 (iOS)";
+		};
+		47E697EF19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7E383C2160DFEDB00CF72D6;
+			remoteInfo = "DTHTMLParser (iOS)";
+		};
+		47E697F119F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7CE547166613B60028D339;
+			remoteInfo = "DTHTMLParser (Mac)";
+		};
+		47E697F319F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F88FF6801920A83300120808;
+			remoteInfo = "DTProgressHUD (iOS)";
+		};
+		47E697F519F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A72121DA173BFFB1003C6F0A;
+			remoteInfo = "DTReachability (iOS)";
+		};
+		47E697F719F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A72121EA173BFFED003C6F0A;
+			remoteInfo = "DTReachability (Mac)";
+		};
+		47E697F919F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7C92B7A174FB8900019D70A;
+			remoteInfo = "DTSQLite (iOS)";
+		};
+		47E697FB19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7C92B8C174FB9720019D70A;
+			remoteInfo = "DTSQLite (Mac)";
+		};
+		47E697FD19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A78220BA168060CA005B602D;
+			remoteInfo = "DTUTI (iOS)";
+		};
+		47E697FF19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7E889A416A9B190009EF0DF;
+			remoteInfo = "DTUTI (Mac)";
+		};
+		47E6980119F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7E383DA160DFF8600CF72D6;
+			remoteInfo = "DTZipArchive (iOS)";
+		};
+		47E6980319F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7D8C7C21723174600025675;
+			remoteInfo = "DTZipArchive (Mac)";
+		};
+		47E6980519F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A78381C31963F8D700AF09D3;
+			remoteInfo = "DTAnimatedGIF Demo";
+		};
+		47E6980719F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F88FF6A51920AAB600120808;
+			remoteInfo = "DTProgressHUD Demo";
+		};
+		47E6980919F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7D9D62D1758C89800C29B6F;
+			remoteInfo = "DTReachability Demo";
+		};
+		47E6980B19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A70D74D01743AFBC00E6E626;
+			remoteInfo = "DTSidePanels Demo";
+		};
+		47E6980D19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAF37A2017AFDD93009AC27C;
+			remoteInfo = "DTZipArchive Demo";
+		};
+		47E6980F19F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAC284E619B84B5F0010C385;
+			remoteInfo = "DTActionSheet Demo";
+		};
+		47E6981119F745B40009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7917C77191A312600964D63;
+			remoteInfo = "Unit Tests";
+		};
+		47E6981619F746540009E243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7CE53D166613B60028D339;
+			remoteInfo = "DTHTMLParser (Mac)";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47E6981519F745D90009E243 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4706457D185943E700EF8629 /* TZDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TZDebug.h; path = TZWebContentParser/TZDebug.h; sourceTree = "<group>"; };
@@ -155,12 +329,8 @@
 		47584EC018550258005BF727 /* TZWebContentParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TZWebContentParserTests-Info.plist"; sourceTree = "<group>"; };
 		47584EC218550258005BF727 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47584EC418550258005BF727 /* TZWebContentParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZWebContentParserTests.m; sourceTree = "<group>"; };
-		47584ECE1855026C005BF727 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		47584EE1185503C9005BF727 /* NSHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSHTMLParser.h; sourceTree = "<group>"; };
 		47584EE2185503C9005BF727 /* NSHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSHTMLParser.m; sourceTree = "<group>"; };
-		47584EE3185503C9005BF727 /* DTWeakSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWeakSupport.h; sourceTree = "<group>"; };
-		47584EE4185503C9005BF727 /* DTHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHTMLParser.h; sourceTree = "<group>"; };
-		47584EE5185503C9005BF727 /* DTHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHTMLParser.m; sourceTree = "<group>"; };
 		47584EEB185503D8005BF727 /* TZHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZHTMLParser.h; sourceTree = "<group>"; };
 		47584EEC185503D8005BF727 /* TZHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZHTMLParser.m; sourceTree = "<group>"; };
 		47584EED185503D8005BF727 /* TZXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXMLParser.h; sourceTree = "<group>"; };
@@ -238,7 +408,10 @@
 		47584F7F1855045B005BF727 /* TZTorrentzOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTorrentzOperation.h; sourceTree = "<group>"; };
 		47584F801855045B005BF727 /* TZTorrentzOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTorrentzOperation.m; sourceTree = "<group>"; };
 		47584F8318550C4F005BF727 /* TZTorrentSitesParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZTorrentSitesParser.h; sourceTree = "<group>"; };
-		47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TZWebContentParserTest.xcodeproj; path = TZWebContentParserTest/TZWebContentParserTest.xcodeproj; sourceTree = "<group>"; };
+		47E697C719F745B30009E243 /* DTFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DTFoundation.xcodeproj; path = DTFoundation/DTFoundation.xcodeproj; sourceTree = "<group>"; };
+		47E6981B19F74AFF0009E243 /* DTHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTHTMLParser.h; path = ../../../DTFoundation/Core/Source/DTHTMLParser/DTHTMLParser.h; sourceTree = "<group>"; };
+		47E6981D19F74B130009E243 /* DTWeakSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTWeakSupport.h; path = ../../../DTFoundation/Core/Source/DTWeakSupport.h; sourceTree = "<group>"; };
+		47E6981F19F74C4D0009E243 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,8 +419,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E6982019F74C4D0009E243 /* libxml2.dylib in Frameworks */,
+				47E6981819F7465B0009E243 /* libDTHTMLParser_Mac.a in Frameworks */,
 				47584EA418550258005BF727 /* Cocoa.framework in Frameworks */,
-				47584ECF1855026C005BF727 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +441,12 @@
 		47584E9618550258005BF727 = {
 			isa = PBXGroup;
 			children = (
+				47E697C719F745B30009E243 /* DTFoundation.xcodeproj */,
 				47584EA918550258005BF727 /* TZWebContentParser */,
 				4706457D185943E700EF8629 /* TZDebug.h */,
 				47584EBE18550258005BF727 /* TZWebContentParserTests */,
 				47584EA218550258005BF727 /* Frameworks */,
 				47584EA118550258005BF727 /* Products */,
-				47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,7 +462,7 @@
 		47584EA218550258005BF727 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				47584ECE1855026C005BF727 /* libxml2.dylib */,
+				47E6981F19F74C4D0009E243 /* libxml2.dylib */,
 				47584EA318550258005BF727 /* Cocoa.framework */,
 				47584EB818550258005BF727 /* XCTest.framework */,
 				47584EA518550258005BF727 /* Other Frameworks */,
@@ -309,27 +483,7 @@
 		47584EA918550258005BF727 /* TZWebContentParser */ = {
 			isa = PBXGroup;
 			children = (
-				47584F7F1855045B005BF727 /* TZTorrentzOperation.h */,
-				47584F801855045B005BF727 /* TZTorrentzOperation.m */,
-				47203AA01884411E002C6E22 /* TZTorrentQuery.h */,
-				47203AA11884411E002C6E22 /* TZTorrentQuery.m */,
-				47203AA21884411E002C6E22 /* TZDownloadPages.h */,
-				47203AA31884411E002C6E22 /* TZDownloadPages.m */,
-				472067981884AA8800C75B0E /* TZServerIndex.h */,
-				472067991884AA8800C75B0E /* TZServerIndex.m */,
-				47584F7318550439005BF727 /* TZWebContent.h */,
-				47584F7418550439005BF727 /* TZWebContent.m */,
-				47584F7518550439005BF727 /* TZWebContentParser.h */,
-				47584F7618550439005BF727 /* TZWebContentParser.m */,
-				47584F7718550439005BF727 /* TZPageLoader.h */,
-				47584F7818550439005BF727 /* TZPageLoader.m */,
-				47584EEB185503D8005BF727 /* TZHTMLParser.h */,
-				47584EEC185503D8005BF727 /* TZHTMLParser.m */,
-				47584EED185503D8005BF727 /* TZXMLParser.h */,
-				47584EEE185503D8005BF727 /* TZXMLParser.m */,
-				47584EDB18550370005BF727 /* NSHTMLParser */,
-				47584EDF1855039F005BF727 /* HTMLParser */,
-				47584EDD18550389005BF727 /* XMLParser */,
+				47E6981A19F7482D0009E243 /* Classes */,
 				47584EAA18550258005BF727 /* Supporting Files */,
 			);
 			path = TZWebContentParser;
@@ -366,13 +520,12 @@
 		47584EDB18550370005BF727 /* NSHTMLParser */ = {
 			isa = PBXGroup;
 			children = (
+				47E6981D19F74B130009E243 /* DTWeakSupport.h */,
+				47E6981B19F74AFF0009E243 /* DTHTMLParser.h */,
 				47584EE1185503C9005BF727 /* NSHTMLParser.h */,
 				47584EE2185503C9005BF727 /* NSHTMLParser.m */,
-				47584EE3185503C9005BF727 /* DTWeakSupport.h */,
-				47584EE4185503C9005BF727 /* DTHTMLParser.h */,
-				47584EE5185503C9005BF727 /* DTHTMLParser.m */,
 			);
-			name = NSHTMLParser;
+			path = NSHTMLParser;
 			sourceTree = "<group>";
 		};
 		47584EDD18550389005BF727 /* XMLParser */ = {
@@ -383,7 +536,7 @@
 				47584EF5185503E4005BF727 /* TZXmlFeedParser.h */,
 				47584EF6185503E4005BF727 /* TZXmlFeedParser.m */,
 			);
-			name = XMLParser;
+			path = XMLParser;
 			sourceTree = "<group>";
 		};
 		47584EDF1855039F005BF727 /* HTMLParser */ = {
@@ -397,7 +550,7 @@
 				47584F00185503EC005BF727 /* TZDownloadPageParser.m */,
 				47584EE0185503A9005BF727 /* TorrentSites */,
 			);
-			name = HTMLParser;
+			path = HTMLParser;
 			sourceTree = "<group>";
 		};
 		47584EE0185503A9005BF727 /* TorrentSites */ = {
@@ -461,16 +614,66 @@
 				4736D745188C8EDA00128ED7 /* TZ_h33t_PageParser.h */,
 				4736D746188C8EDA00128ED7 /* TZ_h33t_PageParser.m */,
 			);
-			name = TorrentSites;
+			path = TorrentSites;
 			sourceTree = "<group>";
 		};
-		47584FC81855118D005BF727 /* Products */ = {
+		47E697C819F745B30009E243 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47584FCD1855118E005BF727 /* TZWebContentParserTest.app */,
-				47584FCF1855118E005BF727 /* TZWebContentParserTestTests.xctest */,
+				47E697E419F745B40009E243 /* DTFoundation.framework */,
+				47E697E619F745B40009E243 /* libDTFoundation.a */,
+				47E697E819F745B40009E243 /* libDTFoundation_Mac.a */,
+				47E697EA19F745B40009E243 /* libDTAnimatedGIF.a */,
+				47E697EC19F745B40009E243 /* libDTAWS.a */,
+				47E697EE19F745B40009E243 /* libDTASN1.a */,
+				47E697F019F745B40009E243 /* libDTHTMLParser_iOS.a */,
+				47E697F219F745B40009E243 /* libDTHTMLParser_Mac.a */,
+				47E697F419F745B40009E243 /* libDTProgressHUD_iOS.a */,
+				47E697F619F745B40009E243 /* libDTReachability_iOS.a */,
+				47E697F819F745B40009E243 /* libDTReachability_Mac.a */,
+				47E697FA19F745B40009E243 /* libDTSQLite_iOS.a */,
+				47E697FC19F745B40009E243 /* libDTSQLite_Mac.a */,
+				47E697FE19F745B40009E243 /* libDTUTI_iOS.a */,
+				47E6980019F745B40009E243 /* libDTUTI_Mac.a */,
+				47E6980219F745B40009E243 /* libDTZipArchive_iOS.a */,
+				47E6980419F745B40009E243 /* libDTZipArchive_Mac.a */,
+				47E6980619F745B40009E243 /* DTAnimatedGIF Demo.app */,
+				47E6980819F745B40009E243 /* DTProgressHUD Demo.app */,
+				47E6980A19F745B40009E243 /* DTReachability Demo.app */,
+				47E6980C19F745B40009E243 /* DTSidePanels Demo.app */,
+				47E6980E19F745B40009E243 /* DTZipArchive.app */,
+				47E6981019F745B40009E243 /* DTActionSheet Demo.app */,
+				47E6981219F745B40009E243 /* Unit Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		47E6981A19F7482D0009E243 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				47584F7F1855045B005BF727 /* TZTorrentzOperation.h */,
+				47584F801855045B005BF727 /* TZTorrentzOperation.m */,
+				47203AA01884411E002C6E22 /* TZTorrentQuery.h */,
+				47203AA11884411E002C6E22 /* TZTorrentQuery.m */,
+				47203AA21884411E002C6E22 /* TZDownloadPages.h */,
+				47203AA31884411E002C6E22 /* TZDownloadPages.m */,
+				472067981884AA8800C75B0E /* TZServerIndex.h */,
+				472067991884AA8800C75B0E /* TZServerIndex.m */,
+				47584F7318550439005BF727 /* TZWebContent.h */,
+				47584F7418550439005BF727 /* TZWebContent.m */,
+				47584F7518550439005BF727 /* TZWebContentParser.h */,
+				47584F7618550439005BF727 /* TZWebContentParser.m */,
+				47584F7718550439005BF727 /* TZPageLoader.h */,
+				47584F7818550439005BF727 /* TZPageLoader.m */,
+				47584EEB185503D8005BF727 /* TZHTMLParser.h */,
+				47584EEC185503D8005BF727 /* TZHTMLParser.m */,
+				47584EED185503D8005BF727 /* TZXMLParser.h */,
+				47584EEE185503D8005BF727 /* TZXMLParser.m */,
+				47584EDB18550370005BF727 /* NSHTMLParser */,
+				47584EDF1855039F005BF727 /* HTMLParser */,
+				47584EDD18550389005BF727 /* XMLParser */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,13 +689,14 @@
 				47584F01185503EC005BF727 /* TZHtmlRawParser.h in Headers */,
 				47584F4F18550401005BF727 /* TZ_yourbittorrent_PageParser.h in Headers */,
 				47584F7918550439005BF727 /* TZWebContent.h in Headers */,
-				47584EE9185503C9005BF727 /* DTHTMLParser.h in Headers */,
 				47584F4918550401005BF727 /* TZ_kickass_PageParser.h in Headers */,
 				47584F5518550401005BF727 /* TZ_limetorrents_PageParser.h in Headers */,
 				47584EF7185503E4005BF727 /* TZXmlRawParser.h in Headers */,
 				47584F5918550401005BF727 /* TZ_thepiratebay_PageParser.h in Headers */,
+				47E6981C19F74AFF0009E243 /* DTHTMLParser.h in Headers */,
 				47584F6D18550401005BF727 /* TZ_publichd_PageParser.h in Headers */,
 				4706457F1859447C00EF8629 /* TZDebug.h in Headers */,
+				47E6981E19F74B130009E243 /* DTWeakSupport.h in Headers */,
 				47584F811855045B005BF727 /* TZTorrentzOperation.h in Headers */,
 				47584F6318550401005BF727 /* TZ_1337x_PageParser.h in Headers */,
 				47584F4D18550401005BF727 /* TZ_seedpeer_PageParser.h in Headers */,
@@ -520,7 +724,6 @@
 				47584F5118550401005BF727 /* TZ_torrents_PageParser.h in Headers */,
 				47584F3D18550401005BF727 /* TZ_bitsnoop_PageParser.h in Headers */,
 				47584F4118550401005BF727 /* TZ_monova_PageParser.h in Headers */,
-				47584EE8185503C9005BF727 /* DTWeakSupport.h in Headers */,
 				47584F5F18550401005BF727 /* TZ_torlock_PageParser.h in Headers */,
 				47584EE6185503C9005BF727 /* NSHTMLParser.h in Headers */,
 				47584F7B18550439005BF727 /* TZWebContentParser.h in Headers */,
@@ -541,10 +744,12 @@
 				47584E9C18550258005BF727 /* Frameworks */,
 				47584E9D18550258005BF727 /* Headers */,
 				47584E9E18550258005BF727 /* Resources */,
+				47E6981519F745D90009E243 /* Copy Files */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				47E6981719F746540009E243 /* PBXTargetDependency */,
 			);
 			name = TZWebContentParser;
 			productName = TZWebContentParser;
@@ -595,8 +800,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 47584FC81855118D005BF727 /* Products */;
-					ProjectRef = 47584FC71855118D005BF727 /* TZWebContentParserTest.xcodeproj */;
+					ProductGroup = 47E697C819F745B30009E243 /* Products */;
+					ProjectRef = 47E697C719F745B30009E243 /* DTFoundation.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -608,18 +813,172 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		47584FCD1855118E005BF727 /* TZWebContentParserTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = TZWebContentParserTest.app;
-			remoteRef = 47584FCC1855118E005BF727 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		47584FCF1855118E005BF727 /* TZWebContentParserTestTests.xctest */ = {
+		47E697E419F745B40009E243 /* DTFoundation.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = TZWebContentParserTestTests.xctest;
-			remoteRef = 47584FCE1855118E005BF727 /* PBXContainerItemProxy */;
+			path = DTFoundation.framework;
+			remoteRef = 47E697E319F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697E619F745B40009E243 /* libDTFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTFoundation.a;
+			remoteRef = 47E697E519F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697E819F745B40009E243 /* libDTFoundation_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTFoundation_Mac.a;
+			remoteRef = 47E697E719F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697EA19F745B40009E243 /* libDTAnimatedGIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTAnimatedGIF.a;
+			remoteRef = 47E697E919F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697EC19F745B40009E243 /* libDTAWS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTAWS.a;
+			remoteRef = 47E697EB19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697EE19F745B40009E243 /* libDTASN1.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTASN1.a;
+			remoteRef = 47E697ED19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697F019F745B40009E243 /* libDTHTMLParser_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTHTMLParser_iOS.a;
+			remoteRef = 47E697EF19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697F219F745B40009E243 /* libDTHTMLParser_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTHTMLParser_Mac.a;
+			remoteRef = 47E697F119F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697F419F745B40009E243 /* libDTProgressHUD_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTProgressHUD_iOS.a;
+			remoteRef = 47E697F319F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697F619F745B40009E243 /* libDTReachability_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTReachability_iOS.a;
+			remoteRef = 47E697F519F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697F819F745B40009E243 /* libDTReachability_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTReachability_Mac.a;
+			remoteRef = 47E697F719F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697FA19F745B40009E243 /* libDTSQLite_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTSQLite_iOS.a;
+			remoteRef = 47E697F919F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697FC19F745B40009E243 /* libDTSQLite_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTSQLite_Mac.a;
+			remoteRef = 47E697FB19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E697FE19F745B40009E243 /* libDTUTI_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTUTI_iOS.a;
+			remoteRef = 47E697FD19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980019F745B40009E243 /* libDTUTI_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTUTI_Mac.a;
+			remoteRef = 47E697FF19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980219F745B40009E243 /* libDTZipArchive_iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTZipArchive_iOS.a;
+			remoteRef = 47E6980119F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980419F745B40009E243 /* libDTZipArchive_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTZipArchive_Mac.a;
+			remoteRef = 47E6980319F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980619F745B40009E243 /* DTAnimatedGIF Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "DTAnimatedGIF Demo.app";
+			remoteRef = 47E6980519F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980819F745B40009E243 /* DTProgressHUD Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "DTProgressHUD Demo.app";
+			remoteRef = 47E6980719F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980A19F745B40009E243 /* DTReachability Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "DTReachability Demo.app";
+			remoteRef = 47E6980919F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980C19F745B40009E243 /* DTSidePanels Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "DTSidePanels Demo.app";
+			remoteRef = 47E6980B19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6980E19F745B40009E243 /* DTZipArchive.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DTZipArchive.app;
+			remoteRef = 47E6980D19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6981019F745B40009E243 /* DTActionSheet Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "DTActionSheet Demo.app";
+			remoteRef = 47E6980F19F745B40009E243 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47E6981219F745B40009E243 /* Unit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests.xctest";
+			remoteRef = 47E6981119F745B40009E243 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -687,7 +1046,6 @@
 				47584F6418550401005BF727 /* TZ_1337x_PageParser.m in Sources */,
 				47584F5E18550401005BF727 /* TZ_extratorrent_PageParser.m in Sources */,
 				47584F7C18550439005BF727 /* TZWebContentParser.m in Sources */,
-				47584EEA185503C9005BF727 /* DTHTMLParser.m in Sources */,
 				47584F02185503EC005BF727 /* TZHtmlRawParser.m in Sources */,
 				47584F6C18550401005BF727 /* TZ_bt_chat_PageParser.m in Sources */,
 				47584F4C18550401005BF727 /* TZ_torrentfunk_PageParser.m in Sources */,
@@ -710,6 +1068,11 @@
 			isa = PBXTargetDependency;
 			target = 47584E9F18550258005BF727 /* TZWebContentParser */;
 			targetProxy = 47584EBB18550258005BF727 /* PBXContainerItemProxy */;
+		};
+		47E6981719F746540009E243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DTHTMLParser (Mac)";
+			targetProxy = 47E6981619F746540009E243 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -813,11 +1176,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${SDKROOT}/usr/include/libxml2/**",
 				);
 				INFOPLIST_FILE = "TZWebContentParser/TZWebContentParser-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				OTHER_LDFLAGS = "-lxml2";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -836,11 +1198,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${SDKROOT}/usr/include/libxml2/**",
 				);
 				INFOPLIST_FILE = "TZWebContentParser/TZWebContentParser-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				OTHER_LDFLAGS = "-lxml2";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
