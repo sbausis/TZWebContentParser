@@ -13,7 +13,6 @@ typedef NSDictionary TZItem;
 
 @interface TZTorrentQuery : NSObject
 
--(id)init __attribute__((unavailable("Must use initWithLink: / initWithQuery: instead.")));
 -(id)initWithLink:(NSString*)link;
 -(id)initWithQuery:(NSString*)query;
 
