@@ -67,7 +67,8 @@
         _knownPages = [NSArray arrayWithObjects:
                       //
                       [NSArray arrayWithObjects:@"http://torrentz.eu/help", [TZServerIndexParser class], nil],
-                      [NSArray arrayWithObjects:@"http://torrentz.eu/feed?q=", [TZXmlFeedParser class], nil],
+                       [NSArray arrayWithObjects:@"http://torrentz.eu/feed?q=", [TZXmlFeedParser class], nil],
+                       [NSArray arrayWithObjects:@"http://torrentz.eu/feedA?q=", [TZXmlFeedParser class], nil],
                       [NSArray arrayWithObjects:@"http://torrentz.eu/", [TZDownloadPageParser class], nil],
                       //
                       [NSArray arrayWithObjects:@"http://bitsnoop.com", [TZ_bitsnoop_PageParser class], nil],
